@@ -1,15 +1,27 @@
+aid: iso
 name: ISO
-description: The International Organization for Standardization (ISO) develops and
-  publishes international standards covering technology, manufacturing, food safety,
-  and many other industries. ISO standards provide globally recognized frameworks
-  that help organizations ensure quality, safety, interoperability, and consistency
-  in their products and processes.
-url: https://www.iso.org
+description: >-
+  The International Organization for Standardization (ISO) develops and publishes
+  international standards covering technology, manufacturing, food safety, and
+  many other industries. ISO standards provide globally recognized frameworks
+  that help organizations ensure quality, safety, interoperability, and
+  consistency in their products and processes.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Standards
-- Certification
-- Quality Management
-created: '2025'
-modified: '2025'
+  - Standards
+  - Certification
+  - Quality Management
+  - International
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/iso/refs/heads/main/apis.yml
+created: '2025-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis: []
-common: []
+common:
+  - type: Website
+    url: https://www.iso.org
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
