@@ -5,9 +5,9 @@ The International Organization for Standardization (ISO) develops and publishes 
 
 ## Scope
 
-- **Type:** Index 
-- **Position:** Consuming 
-- **Access:** 3rd-Party 
+- **Type:** Index
+- **Position:** Consuming
+- **Access:** 3rd-Party
 
 ## Tags:
 
@@ -15,12 +15,18 @@ The International Organization for Standardization (ISO) develops and publishes 
 
 ## Timestamps
 
-- **Created:** 2025-01-01 
-- **Modified:** 2026-03-16 
+- **Created:** 2025-01-01
+- **Modified:** 2026-04-28
+
+## APIs
+
+No public APIs have been documented for ISO yet. Check back for updates.
 
 ## Common Properties
 
 - [Website](https://www.iso.org)
+- [Standards](https://www.iso.org/standards.html)
+- [About](https://www.iso.org/about-us.html)
 
 ## Maintainers
 

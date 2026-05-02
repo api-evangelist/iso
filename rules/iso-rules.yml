@@ -1,0 +1,24 @@
+aid: iso
+name: ISO Rules
+description: >-
+  Governance and curation rules for the ISO (International Organization for
+  Standardization) index within the API Evangelist network.
+rules:
+  - name: Organization Profile
+    description: Track ISO as a standards-development organization.
+    conditions:
+      - Type remains Index for the ISO organization profile.
+      - Tags include Standards, Certification, International.
+      - Common Properties include Website on iso.org.
+  - name: API Discovery
+    description: Surface any ISO-published APIs or developer resources.
+    conditions:
+      - Monitor iso.org for any developer or open-data APIs.
+      - Generate OpenAPI only when a real ISO API is published.
+      - Avoid creating empty OpenAPI specs.
+  - name: Metadata Currency
+    description: Keep ISO index metadata accurate.
+    conditions:
+      - Update modified date on any change.
+      - README.md kept in sync with apis.yml.
+      - Maintainer remains Kin Lane unless otherwise specified.
