@@ -1,0 +1,138 @@
+vocabulary:
+  name: ISO Standards Vocabulary
+  description: >-
+    Key terms and concepts used by the International Organization for
+    Standardization (ISO) in the development, publication, and application
+    of international standards across technology, manufacturing, food safety,
+    and other industries.
+  version: "1.0.0"
+  terms:
+    - term: International Standard
+      definition: >-
+        A document established by consensus and approved by a recognized body
+        that provides rules, guidelines, or characteristics for activities or
+        their results, aimed at achieving optimum order in a given context
+        at the international level.
+      tags:
+        - standards
+        - normative
+
+    - term: Technical Committee (TC)
+      definition: >-
+        A group of experts responsible for developing and maintaining ISO
+        standards in a specific subject area. Technical Committees are
+        identified by a number (e.g. ISO/TC 176 for quality management).
+      tags:
+        - governance
+        - committee
+
+    - term: International Classification for Standards (ICS)
+      definition: >-
+        A hierarchical classification scheme used for organizing and indexing
+        international, regional, and national standards. The ICS provides a
+        structured way to search and browse the ISO catalogue by subject.
+      tags:
+        - classification
+        - catalogue
+
+    - term: Conformity Assessment
+      definition: >-
+        Any activity concerned with determining whether relevant requirements
+        in a standard are fulfilled, including testing, inspection, and
+        certification activities.
+      tags:
+        - certification
+        - quality
+
+    - term: Quality Management System (QMS)
+      definition: >-
+        A formalized system documented in standards such as ISO 9001 that
+        defines the policies, objectives, and processes for consistently
+        delivering products and services that meet customer and regulatory
+        requirements.
+      tags:
+        - quality
+        - management
+        - ISO 9001
+
+    - term: ISO 9001
+      definition: >-
+        The world's most recognized quality management system standard,
+        specifying requirements for a QMS that organizations can use to
+        demonstrate the ability to consistently provide products and services
+        that meet customer and applicable statutory and regulatory requirements.
+      tags:
+        - quality
+        - certification
+        - manufacturing
+
+    - term: ISO 14001
+      definition: >-
+        An international standard specifying requirements for an effective
+        environmental management system (EMS), enabling organizations to
+        enhance environmental performance and achieve environmental objectives.
+      tags:
+        - environment
+        - management
+        - sustainability
+
+    - term: ISO 45001
+      definition: >-
+        An international standard for occupational health and safety (OH&S)
+        management systems, providing a framework to improve employee safety,
+        reduce workplace risks, and create better, safer working conditions.
+      tags:
+        - safety
+        - health
+        - workplace
+
+    - term: Normative Document
+      definition: >-
+        A document that provides rules, guidelines, or characteristics for
+        activities or their results. In ISO terminology, normative elements
+        define requirements that must be complied with in order to claim
+        conformance with the standard.
+      tags:
+        - standards
+        - compliance
+
+    - term: Technical Report (TR)
+      definition: >-
+        An ISO publication type used to convey information of a different kind
+        from a standard, such as data collected from a survey or from an
+        informative report. A Technical Report cannot be used as a normative
+        reference.
+      tags:
+        - publication
+        - informative
+
+    - term: Publicly Available Specification (PAS)
+      definition: >-
+        A fast-track publication route for an ISO document representing a
+        technical agreement or best practice. PAS documents are less formal
+        than full International Standards and require a simpler approval
+        process.
+      tags:
+        - publication
+        - specification
+
+    - term: Accreditation
+      definition: >-
+        Third-party attestation related to a conformity assessment body
+        conveying formal demonstration of its competence to carry out specific
+        conformity assessment tasks (testing, calibration, certification, or
+        inspection).
+      tags:
+        - accreditation
+        - certification
+        - third-party
+
+    - term: Standardization Roadmap
+      definition: >-
+        A document that identifies the gaps in the existing standardization
+        landscape and defines priorities and timelines for developing new or
+        revised standards in an emerging area of technology or industry.
+      tags:
+        - planning
+        - strategy
+        - roadmap

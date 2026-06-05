@@ -1,0 +1,14 @@
+{
+  "repo": "iso",
+  "feeds": [
+    {
+      "source": "https://www.iso.org",
+      "feed_url": "https://www.iso.org/news.html",
+      "title": "ISO News",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-05T00:00:00Z"
+}

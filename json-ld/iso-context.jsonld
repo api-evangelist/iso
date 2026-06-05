@@ -1,0 +1,67 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "iso": "https://www.iso.org/ns/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "org": "http://www.w3.org/ns/org#",
+
+    "ISO": {
+      "@id": "https://www.iso.org",
+      "@type": "Organization"
+    },
+    "name": "schema:name",
+    "url": "schema:url",
+    "description": "schema:description",
+    "industry": "schema:industry",
+    "founder": "schema:founder",
+    "foundingDate": "schema:foundingDate",
+    "numberOfEmployees": "schema:numberOfEmployees",
+    "knowsAbout": "schema:knowsAbout",
+
+    "Standard": {
+      "@id": "iso:Standard",
+      "@type": "skos:Concept"
+    },
+    "standardNumber": "iso:standardNumber",
+    "standardTitle": "iso:standardTitle",
+    "standardEdition": "iso:standardEdition",
+    "publicationDate": "dcterms:issued",
+    "revisionDate": "dcterms:modified",
+    "status": "iso:status",
+    "technicalCommittee": "iso:technicalCommittee",
+    "scope": "iso:scope",
+    "abstract": "dcterms:abstract",
+    "ics": "iso:ics",
+
+    "TechnicalCommittee": {
+      "@id": "iso:TechnicalCommittee",
+      "@type": "org:OrganizationalUnit"
+    },
+    "committeeId": "iso:committeeId",
+    "committeeTitle": "iso:committeeTitle",
+    "secretariat": "iso:secretariat",
+
+    "ICSCode": {
+      "@id": "iso:ICSCode",
+      "@type": "skos:Concept"
+    },
+    "icsField": "iso:icsField",
+    "icsGroup": "iso:icsGroup",
+    "icsSubgroup": "iso:icsSubgroup",
+
+    "Certification": {
+      "@id": "iso:Certification",
+      "@type": "schema:EducationalOccupationalCredential"
+    },
+    "certificationBody": "schema:recognizedBy",
+    "certificationScheme": "iso:certificationScheme",
+
+    "ConformityAssessment": {
+      "@id": "iso:ConformityAssessment",
+      "@type": "schema:ReviewAction"
+    },
+    "accreditationBody": "iso:accreditationBody",
+    "conformanceClaim": "iso:conformanceClaim"
+  }
+}
